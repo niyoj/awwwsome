@@ -1,0 +1,7 @@
+# ignoring npm files
+node_modules/
+package-lock.json
+
+# ignoring swap files
+*.swap
+*.swp

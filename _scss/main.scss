@@ -1,0 +1,22 @@
+//Here, 7 in 1 SASS Architecture is followed for creating manageable codebase. 
+//    * `abstracts`, contains SCSS that would not appear as css like mixins, functions, and variables.
+//    * `base`, contatins boilerplate SCSS used through entire site,
+//    * `components`, are buliding blocks of the webpage
+//    * `layouts`, contains SCSS for structural component of site,
+//    * `pages`, contains page-specific SCSS,
+//    * `themes`, contains SCSS for different themes
+//    * `vendors`, will have third party stylesheets needed in the project.
+
+// importing scss partials starts here
+@import "./abstracts/functions";
+@import "./abstracts/mixins";
+@import "./abstracts/variables";
+
+@import "./base/base";
+@import "./base/typography";
+@import "./base/utillities";
+
+@import "./layouts/header";
+
+@import "./pages/home";
+// importing scss partials ends here
